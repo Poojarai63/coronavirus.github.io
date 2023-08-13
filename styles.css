@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .elevator {
+    width: 120px;
+    background-color: #921111;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .door {
+    position: relative;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .door-left,
+  .door-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #ccc;
+    transition: all 0.5s;
+  }
+  
+  .door-left {
+    left: 0;
+  }
+  
+  .door-right {
+    right: 0;
+  }
+  
+  .floor-buttons {
+    margin-top: 20px;
+  }
+  
+  .floor-button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
